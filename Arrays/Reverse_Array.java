@@ -1,6 +1,9 @@
 public class Reverse_Array {
     public static void main(String[] args) {
 
+        // This is right but this code hava space complexcity issue 
+        // means it takes unnecessary memory 
+
         int arr[] = {15,8,9,2,11,4};
         int temp[] = new int[arr.length];
         int count=0;
